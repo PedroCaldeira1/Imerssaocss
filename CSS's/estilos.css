@@ -1,0 +1,84 @@
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body { 
+  background:cadetblue;
+  background-size: 100vh;
+  font-family: Monospace;
+  font-size: 13px;
+}
+
+
+@media (min-width: 4px00 ) {
+  body{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 600px ) {
+  body{
+    font-size: 17px;
+  }
+}
+
+header { 
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+.menu {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top:0;
+}
+    
+a {
+  color:cadetblue;
+  text-decoration: none;
+}
+    
+a:hover { 
+  text-decoration: underline;
+}
+    
+.menu ul {
+  display: flex;
+  justify-content: space-around
+}
+    
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding:5px;
+}
+    
+.site-subtitle,
+.site-title {
+  color: white;
+  text-align: center;
+}
+
+.site-title{
+  font-size: 3em;
+}
+    
+.site-subtitle {
+  font-style:italic 
+}
+
+.img-portfolio {
+  height:180px;
+  width:180px;
+}
+    
+    
